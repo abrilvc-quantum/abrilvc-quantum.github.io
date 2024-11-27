@@ -1,0 +1,58 @@
+*{
+    font-family: "Playfair Display", serif; 
+}
+header{
+    background-color: #fcf6bd;
+}
+.nav-item a{
+    color: #9b5de5;
+}
+#boton-perfil{
+background-color: #9b5de5;
+
+}
+.nav-item a:hover{
+color: #f15bb5;
+}
+#app{
+    color: #00f5d4;
+}
+.boton-cv{
+    background-color: #9b5de5;
+    color: aliceblue;
+}
+.caja-habilidades{
+    background-color: #ff99c8;
+}
+.btn-proyecto{
+    background-color: #d0f4de;
+   
+}
+.btn-proyecto a{
+    text-decoration: none;
+    color: black;
+}
+.card .card-title{
+    color: #e71d36;
+}
+#contacto{
+    background-color: #e4c1f9;
+}
+#btn-contacto{
+    background-color: #6f0ca9cb;
+}
+#btn-contacto:hover{
+    background-color: #ff99c8;
+}
+footer li a i{
+color: #ff6b6b;
+}
+
+footer p{
+    color: #f15bb5;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #f15bb5;
+}

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- para que salga en los resultados en español mi sitio, se debe cambiar el idioma -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CDN BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- ICONS DE BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- icono que aparece en la pestaña -->
+  <link rel="shortcut icon" href="assets/rocket-takeoff.svg" type="image/x-icon">
+  <!-- TIPO DE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <!-- CSS ARCHIVO DE ESTILO -->
+  <link rel="stylesheet" href="style.css">
+  <title>Portafolio</title>
+</head>
+
+<body>
+
+
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <i class="bi bi-infinity p-3"></i>
+      <span class="fs-4">Abril Vargas Cortés</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item boton-perfil"><a id="boton-perfil" href="#" class="nav-link active" aria-current="page">Sobre
+          mí</a></li>
+      <li class="nav-item"><a href="#hanging-icons" class="nav-link">Habilidades</a></li>
+      <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+      <li class="nav-item"><a href="#eventos" class="nav-link">Eventos</a></li>
+      <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4 reounded-circle" src="assets/1.jpg" alt="" width="300">
+        <h1 class="display-5 fw-bold text-body-emphasis"> Abril Vargas Cortes</h1>
+        <!-- texto que se mueve -->
+        <h2 id="app"></h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laboriosam molestiae quisquam officia neque
+            ullam natus id? Animi, facilis voluptate porro, eum sequi consectetur nihil harum, vitae quis ipsum enim!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A iusto quo minima, repellendus earum tenetur. Quis
+            fugit, beatae expedita velit, placeat sit reprehenderit, ut non fugiat illum tenetur quod quaerat? Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Nam adipisci repudiandae eveniet dignissimos sequi modi
+            reprehenderit itaque dolores corrupti temporibus! Dolores nobis quasi reiciendis hic, eos repellat
+            consequuntur minima placeat?
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">
+              CV
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Habilidades -->
+    <div class="caja-habilidades">
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Habilidades</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-primary bg-body-none d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+              <i class="bi bi-cpu"></i>
+
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Física</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and
+                probably just keep going until we run out of words.</p>
+
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-primary bg-body-none d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+              <i class="bi bi-code-slash"></i>
+
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Programación</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and
+                probably just keep going until we run out of words.</p>
+
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-primary bg-body-none d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+              <i class="bi bi-backpack2"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Estudiante</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and
+                probably just keep going until we run out of words.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROYECTOS -->
+    <div class="album py-5 bg-body-tertiary">
+      <div id="proyectos" class="proyectos container">
+        <h2 class="pb-2 border-bottom">Proyectos</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="assets/pinterest.png" alt="">
+              <div class="card-body">
+                <p class="card-text">Clon de Pinterest</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                        href="https://pinterest-clon-pink-pi.vercel.app/">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                        href="https://github.com/abrilvc-quantum/pinterest-clon">Github</a></button>
+                  </div>
+                  <small class="text-body-secondary">HTML Y CSS</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="assets/primerapagina.png" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                        href="https://pinterest-clon-pink-pi.vercel.app/">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                        href="https://github.com/abrilvc-quantum/pinterest-clon">Github</a></button>
+                  </div>
+                  <small class="text-body-secondary">HTML Y CSS</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                        href="https://pinterest-clon-pink-pi.vercel.app/">Ver</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+                        href="https://github.com/abrilvc-quantum/pinterest-clon">Github</a></button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIOS -->
+    <div id="eventos" class="testimonios container mt-5">
+      <h2 class="pb-2 border-bottom">Eventos</h2>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <!-- CARD -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/testi1.jpg" class="card-img-top reounded-circle" alt="...">
+                <h5 class="card-title text-center">Card title</h5>
+                <h6 class="card-subtitle mb-1 text-body-secondary text-center">Card subtitle</h6>
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+              <!-- FIN DE CARD -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/testi2.jpg" class="card-img-top reounded-circle" alt="...">
+                <h5 class="card-title text-center">Card title</h5>
+                <h6 class="card-subtitle mb-1 text-body-secondary text-center">Card subtitle</h6>
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/testi3.jpg" class="card-img-top reounded-circle" alt="...">
+                <h5 class="card-title text-center">Card title</h5>
+                <h6 class="card-subtitle mb-1 text-body-secondary text-center">Card subtitle</h6>
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+    </div>
+
+    <!-- CONTACTAME -->
+
+    <div id="contacto" class="position-relative p-5 text-center text-muted border border-dashed rounded-5">
+      <i class="d-block mx-auto mb-4 fs-1 bi bi-chat-right-text-fill"></i>
+      <h1 class="display-5 fw-bold text-body-emphasis">Contactame</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="col-lg-6 mx-auto mb-4">
+          This faded back jumbotron is useful for placeholder content. It's also a great way to add a bit of context to
+          a
+          page or section when no content is available and to encourage visitors to take a specific action.
+        </p>
+      </div>
+
+      <button id="btn-contacto" class="btn btn-primary px-5 mb-5" type="button">
+        Call to action
+      </button>
+    </div>
+
+  </main>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2"><i class="bi bi-linkedin"></i></a></li>
+      <li class="nav-item"><a target="_blank" href="https://github.com/abrilvc-quantum"
+          class="nav-link px-2"><i class="bi bi-github"></i></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2"><i class="bi bi-instagram"></i></a>
+      </li>
+      <li class="nav-item"><a href="#" class="nav-link px-2"><i class="bi bi-twitter"></i></a></li>
+    </ul>
+    <p class="text-center"> Creado por Abril Vargas en el bootcamp de <a
+        href="https://tecnolochicas.mx/">TechnolochicasPro</a></p>
+
+  </footer>
+
+
+  <!-- Bootstrap -->
+  <!-- ESTE SCRIPT VA HASTA EL FINAL ANTES DE BODY, SIEMPRE -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

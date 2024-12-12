@@ -4,7 +4,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Física!')
+typewriter.typeString('Maestra en Ciencias Física Aplicada')
 // pausa
     .pauseFor(2500)
     // borra todo
